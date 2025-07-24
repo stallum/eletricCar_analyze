@@ -35,7 +35,7 @@ Ensure you have Python installed (version 3.8+ recommended).
 
 1.  Clone this repository to your local environment:
     ```bash
-    git clone [https://github.com/stallum/eletricCar_analyze.git](https://github.com/stallum/eletricCar_analyze.git)
+    git clone https://github.com/stallum/eletricCar_analyze.git
     cd eletricCar_analyze
     ```
 
@@ -59,7 +59,7 @@ Ensure you have Python installed (version 3.8+ recommended).
 1.  **Data File Location:** Create a folder named `data` in the root directory of the project (ao lado do arquivo `dash.py`). Place the `electric_vehicles_spec_2025.csv` file inside this `data` folder.
     * **Importante:** No seu código Python, certifique-se de que a linha de leitura do CSV esteja ajustada para um caminho relativo, por exemplo:
         ```python
-        df = pd.read_csv('data/electric_vehicles_spec_2025.csv', index_col=False)
+        df = pd.read_csv('./data/electric_vehicles_spec_2025.csv', index_col=False)
         ```
 
 2.  Run the Streamlit application:
