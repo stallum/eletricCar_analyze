@@ -71,8 +71,8 @@ Ensure you have Python installed (version 3.8+ recommended).
 
 The data used in this project is publicly available and was obtained from:
 
-* **Dataset:** Electric Vehicle Specifications Dataset 2025
-* **Link:** [https://www.kaggle.com/datasets/urvishahir/electric-vehicle-specifications-dataset-2025](https://www.kaggle.com/datasets/urvishahir/electric-vehicle-specifications-dataset-2025)
+* **Dataset:** [Electric Vehicle Specifications Dataset 2025](https://www.kaggle.com/datasets/urvishahir/electric-vehicle-specifications-dataset-2025)
+
 
 ## 🤝 Contributions
 
