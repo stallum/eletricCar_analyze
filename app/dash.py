@@ -12,7 +12,7 @@ import plotly.express as px
 st.set_page_config(page_title="Electric Vehicles Dashboard", layout="wide")
 st.title("Electric Vehicles Dashboard")
 
-df = pd.read_csv('C:/Users/stall/Documents/eletricCar/data/electric_vehicles_spec_2025.csv', index_col=False)
+df = pd.read_csv('./data/electric_vehicles_spec_2025.csv', index_col=False)
 
 
 
